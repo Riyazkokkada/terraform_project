@@ -1,0 +1,73 @@
+#Jenkins server
+[root@riyaz-jenkins github_job]# history
+    1  passwd root
+    2  vi /etc/
+    3  cd /etc/ssh/
+    4  vi sshd_config
+    5  cd
+    6  sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    7  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+    8  udo yum upgrad
+    9  sudo yum upgrad
+   10  sudo yum upgrade
+   11  sudo yum install java -y
+   12  sudo yum install jenkins
+   13  sudo systemctl daemon-reload
+   14  systemctl restart sshd
+   15  sysetmctl start jenkins
+   16  systemctl start jenkins
+   17  systemctl status jenkins
+   18  cat /var/lib/jenkins/secrets/initialAdminPassword
+   19  history
+   20  sshd-config
+   21  ssh-keygen
+   22  ssh-copy-id -i root@172.31.32.113
+   23  ssh-copy-id -i root@172.31.32.113
+   24  ssh 'root@172.31.32.113'
+   25  yum install git -y
+   26  cd /var/lib/jenkins/workspace/
+   27  ll
+   28  cd github_job/
+   29  ll
+   30  cat
+   31  cat aws.tf
+   32  history
+#terraform server
+[root@riyaz-terraform awscode]# history
+    1  passwd root
+    2  vi /var/lib/ssh/sshd_c
+    3  vi /etc/ssh/sshd_config
+    4  systemctl restart sshd
+    5  aws config
+    6  aws configure
+    7  ll
+    8  mkdir aws
+    9  cd aws
+   10  ll
+   11  pwd
+   12  mkdir awscode
+   13  cd ..
+   14  cd aws/
+   15  ll
+   16  cd ..
+   17  mkdir awscode
+   18  ll
+   19  cd awscode
+   20  cat awscode
+   21  rm -rf *
+   22  ll
+   23  mkdir awscode
+   24  ll
+   25  pwd
+   26  cd awscode/
+   27  ll
+   28  cat aws.tf
+   29  ls
+   30  pwd
+   31  terraform init
+   32  sudo yum install -y yum-utils shadow-utils
+   33  sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+   34  sudo yum -y install terraform
+   35  ll
+   36  ll
+   37  history
