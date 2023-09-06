@@ -4,6 +4,6 @@ resource "aws_instance" "riyaz_instance"{
     count= 1
 
     tags =  {
-        Name = "riyaz-vm"
+        Name = "riyaz-vm1"
     }
 }
